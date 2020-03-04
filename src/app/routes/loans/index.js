@@ -7,6 +7,7 @@ const Loans = ({ match }) => (
      <Switch>
       <Redirect exact from={`${match.url}/`} to={`${match.url}/create-loan-account`}/>
       <Route path={`${match.url}/create-loan-account`} component={asyncComponent(() => import('./routes/CreateLoanAcc'))}/>
+      <Route path={`${match.url}/loan-disbursement`} component={asyncComponent(() => import('./routes/LoanDisbursement'))}/>
       <Route component={asyncComponent(() => import('app/routes/extraPages/routes/404'))}/>
     </Switch>
   </div>

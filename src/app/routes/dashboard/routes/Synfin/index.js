@@ -8,7 +8,7 @@ import IntlMessages from "util/IntlMessages";
 const Synfin = ({match}) => {
     return(
         <div className="dashboard animated slideInUpTiny animation-duration-3">
-            <ContainerHeader match={match} title={<IntlMessages id="Synfin"/>}/>
+            <ContainerHeader match={match} title={<IntlMessages id="sidebar.dashboard.synfin"/>}/>
         </div>
     )
 

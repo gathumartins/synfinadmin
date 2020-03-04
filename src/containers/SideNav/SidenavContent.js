@@ -207,13 +207,18 @@ class SidenavContent extends Component {
             <Button>
               <i className="zmdi zmdi-widgets zmdi-hc-fw" />
               <span className="nav-text">
-                <IntlMessages id="sidebar.widgets" />
+                <IntlMessages id="sidebar.loans" />
               </span>
             </Button>
             <ul className="sub-menu">
                <li>
                 <NavLink className="prepend-icon" to="/app/loans/create-loan-account">
-                  <span className="nav-text">Create Loan Account</span>
+                  <span className="nav-text"><IntlMessages id="sidebar.loans.CreateLoanAcc"/></span>
+                </NavLink>
+              </li>
+               <li>
+                <NavLink className="prepend-icon" to="/app/loans/loan-disbursement">
+                  <span className="nav-text">Loan Disbursement</span>
                 </NavLink>
               </li>
             </ul>

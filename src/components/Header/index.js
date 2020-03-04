@@ -19,7 +19,7 @@ import AppNotification from '../AppNotification/index';
 import CardHeader from 'components/dashboard/Common/CardHeader/index';
 import {switchLanguage, toggleCollapsedNav} from 'actions/Setting';
 import IntlMessages from 'util/IntlMessages';
-import LanguageSwitcher from 'components/LanguageSwitcher/index';
+// import LanguageSwitcher from 'components/LanguageSwitcher/index';
 import Menu from 'components/TopNav/Menu';
 import UserInfoPopup from 'components/UserInfo/UserInfoPopup';
 
@@ -136,7 +136,7 @@ class Header extends React.Component {
   }
 
   render() {
-    const {drawerType, locale, navigationStyle, horizontalNavPosition} = this.props;
+    const {drawerType, /*locale,*/ navigationStyle, horizontalNavPosition} = this.props;
     const drawerStyle = drawerType.includes(FIXED_DRAWER) ? 'd-block d-xl-none' : drawerType.includes(COLLAPSED_DRAWER) ? 'd-block' : 'd-none';
 
     return (
@@ -211,7 +211,7 @@ class Header extends React.Component {
                 </DropdownMenu>
               </Dropdown>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <Dropdown
                 className="quick-menu"
                 isOpen={this.state.langSwitcher}
@@ -233,7 +233,7 @@ class Header extends React.Component {
               </Dropdown>
 
 
-            </li>
+            </li> */}
             <li className="list-inline-item app-tour">
               <Dropdown
                 className="quick-menu"

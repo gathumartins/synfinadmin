@@ -5,8 +5,8 @@ export default {
   palette: {
     primary: {
       light: indigo[300],
-      main: indigo[500],
-      dark: indigo[700],
+      main: '#ed1c24',
+      dark: '#E91E63',
       contrastText: '#fff'
     },
     secondary: {
