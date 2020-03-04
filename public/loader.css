@@ -4,7 +4,9 @@ body {
     padding: 0;
     margin: 0;
 }
-
+.theme-option{
+    display: none !important;
+}
 #app-site {
     display: flex;
     width: 100%;
