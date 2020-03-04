@@ -584,7 +584,7 @@
   "sidebar.clientAdmin.ViewUser":"View User",
   "sidebar.clientAdmin.CreateBranch": "Add Branch",
   "sidebar.clientAdmin.ViewBranch":"View Branch",
-  "sidebar.loans": "Loans",
+  "sidebar.loans": "Loans Management",
   "sidebar.loans.CreateLoanAcc":"Create Loan Account",
   "sidebar.loans.LoanDisbursement": "Loan Disbursement",
   "table.branches.list": "Branches",
