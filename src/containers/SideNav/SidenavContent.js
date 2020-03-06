@@ -160,8 +160,8 @@ class SidenavContent extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="prepend-icon">
-                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                <NavLink className="prepend-icon" to="/app/admin-management/register-savings&deposit-product">
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.RegSavingsAndDeposit" /></span>
                 </NavLink>
               </li>
               <li>
@@ -184,7 +184,7 @@ class SidenavContent extends Component {
           {/* client Adminstration link */}
           <li className="menu">
             <Button>
-              <i className="zmdi zmdi-home zmdi-hc-fw" />
+              <i class="fas fa-piggy-bank"></i>
               <span className="nav-text text-transform-none">
                 <IntlMessages id="sidebar.clientAdmin" />
               </span>

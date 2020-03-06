@@ -147,8 +147,8 @@ const CreateShareProduct = ({ match, title }) => {
                         <div className="form-group">
                             <label for="status" style={styles.mylabels}>Status</label>
                             <select class="form-control" id="status">
-                                <option>One</option>
-                                <option>Two</option>
+                                <option>Active</option>
+                                <option>Dormant/inActive</option>
                             </select>
                         </div>
                     </div>

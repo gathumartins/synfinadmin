@@ -588,6 +588,7 @@
   "sidebar.adminManagement":"Admin Management",
   "sidebar.adminManagement.AddLoanProduct": "Add Loan Product",
   "sidebar.adminManagement.CreateShareProduct": "Create Share Product",
+  "sidebar.adminManagement.RegSavingsAndDeposit": "Add Savings & Deposit",
   "sidebar.loans.CreateLoanAcc":"Create Loan Account",
   "sidebar.loans.LoanDisbursement": "Loan Disbursement",
   "table.branches.list": "Branches",
