@@ -119,7 +119,7 @@ class SidenavContent extends Component {
               </span>
             </NavLink>
           </li>
-                    {/* Loans links */}
+          {/* Loans links */}
           <li className="menu collapse-box">
             <Button>
               <i className="zmdi zmdi-widgets zmdi-hc-fw" />
@@ -135,11 +135,52 @@ class SidenavContent extends Component {
               </li>
                <li>
                 <NavLink className="prepend-icon" to="/app/loans/loan-disbursement">
-                  <span className="nav-text">Loan Disbursement</span>
+                  <span className="nav-text"><IntlMessages id="sidebar.loans.LoanDisbursement"/></span>
                 </NavLink>
               </li>
             </ul>
           </li>
+          {/* Adminstrative management links */}
+           <li className="menu collapse-box">
+            <Button>
+              <i className="fas fa-cog" />
+              <span className="nav-text">
+                <IntlMessages id="sidebar.adminManagement" />
+              </span>
+            </Button>
+            <ul className="sub-menu">
+              <li>
+                <NavLink className="prepend-icon" to="/app/admin-management/add-loan-product">
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.AddLoanProduct" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon" to="/app/admin-management/create-share-product">
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.CreateShareProduct" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon">
+                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon">
+                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon">
+                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon">
+                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                </NavLink>
+              </li>
+            </ul>
+            </li>
           {/* client Adminstration link */}
           <li className="menu">
             <Button>

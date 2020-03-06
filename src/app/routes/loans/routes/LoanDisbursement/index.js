@@ -61,7 +61,7 @@ const LoanDisbursement = ({ match, title }) => {
                             </div>
                         </div>
                         <div className="col-12">
-                            <div className="btn btn-primary btn-lg float-right">Create Account</div>
+                            <div className="btn btn-primary btn-lg float-right">Disburse</div>
                         </div>
                     </form>
                 </div>
