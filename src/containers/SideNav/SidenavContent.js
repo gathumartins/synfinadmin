@@ -165,18 +165,18 @@ class SidenavContent extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="prepend-icon">
-                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                <NavLink className="prepend-icon" to="/app/bank-management/add-bank-details">
+                  <span className="nav-text"><IntlMessages id="Add Bank Details" /></span>
                 </NavLink>
               </li>
               <li>
-                <NavLink className="prepend-icon">
-                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                <NavLink className="prepend-icon" to="/app/bank-management/edit-bank-details">
+                  <span className="nav-text"><IntlMessages id="Edit Bank Details" /></span>
                 </NavLink>
               </li>
               <li>
-                <NavLink className="prepend-icon">
-                  <span className="nav-text"><IntlMessages id="link One" /></span>
+                <NavLink className="prepend-icon" to="/app/bank-management/relationship-manager">
+                  <span className="nav-text"><IntlMessages id="Relationship Manager" /></span>
                 </NavLink>
               </li>
             </ul>

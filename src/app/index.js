@@ -39,6 +39,7 @@ import TopNav from 'components/TopNav';
 import SocialApps from "./routes/socialApps";
 import Loans from './routes/loans';
 import AdminMgt from './routes/adminManagement';
+import BankMgt from './routes/adminManagement/routes/BankManagement';
 
 class App extends React.Component {
 
@@ -75,6 +76,7 @@ class App extends React.Component {
                 <Route path={`${match.url}/dashboard`} component={Dashboard} />
                 <Route path={`${match.url}/loans`} component={Loans} />
                 <Route path={`${match.url}/admin-management`} component={AdminMgt} />
+                <Route path={`${match.url}/bank-management`} component={BankMgt} />
                 <Route path={`${match.url}/social-apps`} component={SocialApps} />
                 <Route path={`${match.url}/components`} component={Components} />
                 <Route path={`${match.url}/icons`} component={Icons} />
