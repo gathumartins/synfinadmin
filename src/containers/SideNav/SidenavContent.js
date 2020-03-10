@@ -166,17 +166,27 @@ class SidenavContent extends Component {
               </li>
               <li>
                 <NavLink className="prepend-icon" to="/app/bank-management/add-bank-details">
-                  <span className="nav-text"><IntlMessages id="Add Bank Details" /></span>
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.BankManagement.AddBankDetails" /></span>
                 </NavLink>
               </li>
               <li>
                 <NavLink className="prepend-icon" to="/app/bank-management/edit-bank-details">
-                  <span className="nav-text"><IntlMessages id="Edit Bank Details" /></span>
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.BankManagement.EditBankDetails" /></span>
                 </NavLink>
               </li>
               <li>
                 <NavLink className="prepend-icon" to="/app/bank-management/relationship-manager">
-                  <span className="nav-text"><IntlMessages id="Relationship Manager" /></span>
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.BankManagement.RelationshipManager" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon" to="/app/sacco-management/add-sacco-Branch">
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.SaccoManagement.AddSaccoBranch" /></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="prepend-icon" to="/app/sacco-management/edit-sacco-Branch">
+                  <span className="nav-text"><IntlMessages id="sidebar.adminManagement.SaccoManagement.EditSaccoBranch" /></span>
                 </NavLink>
               </li>
             </ul>

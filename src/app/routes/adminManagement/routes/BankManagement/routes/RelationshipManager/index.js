@@ -7,7 +7,7 @@ const RelatinshipManager = ({ match, title }) => {
     return (
         <div className="animated slideInUpTiny animation-duration-3">
             <div className="dashboard animated slideInUpTiny animation-duration-3">
-                <ContainerHeader match={match} title={<IntlMessages id="Relationship Manager" />} />
+                <ContainerHeader match={match} title={<IntlMessages id="sidebar.adminManagement.BankManagement.RelationshipManager" />} />
             </div>
             <section className="jr-card">
                 <form className="row">
